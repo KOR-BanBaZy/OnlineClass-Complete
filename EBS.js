@@ -18,7 +18,7 @@ function DoIt(){
     headers.endButtonYn = "Y";
     headers.lastRevivLc = AllowTime;
     headers.lrnTime = AllowTime;
-    fncPost("/mypage/userlrn/lctrernSave.do", headers, function(){
+    fncPost("/mypage/userlrn/lctreLrnSave.do", headers, function(){
            console.log("Post OK!")
     });
 }    
