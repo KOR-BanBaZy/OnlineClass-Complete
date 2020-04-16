@@ -12,7 +12,7 @@ function DoIt(){
     headers.atnlcNo=atn;
     headers.lctreSn = lctreSn;
     headers.stepSn = step;
-    headers.lctreSeCode = se;
+    headers.lctreSeCode = sc;
     headers.cntntsTyCode = ct;
     headers.revivTime = AllowTime;
     headers.endButtonYn = "Y";
